@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PostXamarin.Views.LinternaView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Morse Light Traductor"               
+                HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  />
+            <Label x:Name="lblmorse" FontSize="20" TextColor="BlueViolet" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Encender linterna" x:Name="btnencender"/>
+            <Button Text="Apagar linterna" x:Name="btnapagar"/>
+            <Button Text="Morse to Text" x:Name="btnmorsetext"/>
+            <Button Text="Morse to Light" x:Name="btnmorse"/>
+            <Entry x:Name="txtTexto" Placeholder="Introduce un texto"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -13,7 +13,7 @@ namespace PostXamarin
 		{
 			InitializeComponent();
 
-			MainPage = new PostXamarin.MainPage();
+			MainPage = new PostXamarin.Views.LinternaView();
 		}
 
 		protected override void OnStart ()
